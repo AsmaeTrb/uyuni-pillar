@@ -5,13 +5,13 @@ base:
     - common.services
     - common.configs
     - common.security    
-  'G@os:Ubuntu':
+  'os:Ubuntu':
     - match: grain
     - os.ubuntu
-  'G@os:Rocky':
+  'os:Rocky':
     - match: grain
     - os.rocky
-  'G@os:Debian':
+  'os:Debian':
     - match: grain
     - os.debian
   'debian12':

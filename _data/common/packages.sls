@@ -1,11 +1,12 @@
-packages:
-  common_install:
+packages_common:
+  install:
     - curl
     - vim
     - wget
     - htop
-  common_update:
+    - rsyslog
+  update:
     - bash
     - vim
-  common_remove:
+  remove:
     - telnet
