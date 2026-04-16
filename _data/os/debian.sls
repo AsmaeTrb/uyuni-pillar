@@ -11,7 +11,11 @@ groups_os:
 services_os:
   running:
     - ssh
-    - cron       
+    - cron
+  dead:
+    - telnet
+  watch: 
+    ssh: /etc/ssh/sshd_config       
 users_os:
   user:
     hajar:

@@ -3,3 +3,7 @@ system:
 packages_host:
   install:
     - docker.io
+ssh:
+  allowed_users:
+    - yousra
+    - hajar

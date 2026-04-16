@@ -18,3 +18,6 @@ users_host:
       ssh_keys: 
         - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMgSI/5Mx4O65NLBncyIDEWpSYnh+bmteDmZ44IvwXc8 ansible-uyuni"
       sudo: "asmae ALL=(ALL) NOPASSWD:ALL"
+ssh:
+  allowed_users:
+    - asmae

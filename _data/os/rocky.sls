@@ -3,6 +3,8 @@ security:
     backend: iptables
 services_os:
   running:
-    - ssh
+    - sshd
     - crond
-  dead: []          
+  dead: []
+  watch:
+    sshd: /etc/ssh/sshd_config          

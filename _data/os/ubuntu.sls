@@ -6,3 +6,5 @@ services_os:
     - ssh
     - cron
   dead: []
+  watch:
+    ssh: /etc/ssh/sshd_config
