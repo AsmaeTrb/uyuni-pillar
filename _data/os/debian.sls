@@ -15,7 +15,7 @@ services_os:
   dead:
     - telnet
   watch: 
-    ssh: /etc/ssh/sshd_config       
+    ssh: deploy_ssh_config       
 users_os:
   user:
     hajar:

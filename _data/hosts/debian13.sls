@@ -21,3 +21,32 @@ users_host:
 ssh:
   allowed_users:
     - asmae
+crons_host:
+  job:
+    backup:
+      month: "*"
+      hour: "2"
+      minute: "0"
+      daymonth: "*"
+      dayweek: "*"
+      job: " tar -czf /backup/exemple.tar.gz /home "
+      state: present
+      user: root
+    clean_log:
+      month: "*"
+      hour: "3"
+      minute: "0"
+      dayweek: "*"
+      daymonth: "*"
+      job: " find /var/log -name '*.log' -mtime +30 -delete "
+      user: root
+      state: present
+    check_disk:
+      month: "*"
+      hour: "*"
+      minute: "0"
+      dayweek: "*"
+      daymonth: "*"
+      job: " df -h > /var/log/disktest.log"
+      user: root
+      state: present

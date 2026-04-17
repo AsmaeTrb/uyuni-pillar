@@ -7,4 +7,4 @@ services_os:
     - crond
   dead: []
   watch:
-    sshd: /etc/ssh/sshd_config          
+    sshd: deploy_ssh_config          
