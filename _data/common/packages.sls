@@ -5,6 +5,7 @@ packages_common:
     - wget
     - htop
     - rsyslog
+    - fail2ban
   update:
     - bash
     - vim

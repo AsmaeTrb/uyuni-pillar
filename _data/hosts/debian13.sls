@@ -50,3 +50,8 @@ crons_host:
       job: " df -h > /var/log/disktest.log"
       user: root
       state: present
+firewall_host:
+  allow:
+    - 443
+  deny:
+    - 23

@@ -1,10 +1,12 @@
-security:
-  firewall:
-    backend: ufw
+firewall_os:
+  allow:
+    - 80
+  deny: []
 packages_os:
   install:
     - build-essential
     - apt-transport-https
+    - ufw
 groups_os:
   group:
     - aline
