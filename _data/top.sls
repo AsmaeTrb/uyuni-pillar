@@ -20,7 +20,7 @@ base:
     - hosts.debian13
   '192.168.78.132':
     - hosts.rocky8
-  '192.168.78.138':
+  '192.168.86.130':
     - hosts.rocky9
   'asmae-VMware-Virtual-Platform':
     - hosts.ubuntu01

@@ -4,3 +4,7 @@ ssh:
   password_auth: 'yes'
 timezoneset:
   timezone: Africa/Casablanca
+rsyslog:
+  server: 192.168.86.130
+  protocol: tcp
+  port: 514

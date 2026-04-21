@@ -13,5 +13,5 @@ services_os:
     ssh: deploy_ssh_config
 firewall_os:
   allow:
-    - 8080  ← exemple port spécifique Ubuntu
+    - 8080  
   deny: []
