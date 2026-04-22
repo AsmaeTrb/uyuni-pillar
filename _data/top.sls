@@ -22,5 +22,5 @@ base:
     - hosts.rocky8
   '192.168.86.130':
     - hosts.rocky9
-  'asmae-VMware-Virtual-Platform':
-    - hosts.ubuntu01
+  '192.168.100.188':
+    - hosts.ubuntu0
